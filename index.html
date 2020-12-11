@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Swaggga.css" />
+    <title>SWEGGA</title>
+  </head>
+  <body>
+    <div class="page">
+      <img id="sidebar" src="swegga.jpg" alt="logo" />
+      <img id="banner" src="delivery.gif" alt="banner" /><br />
+      <img id="nav" src="links.gif" usemap="#mylinks" />
+
+      <map name="mylinks">
+        <area
+          target=""
+          alt=""
+          title=""
+          href="home.html"
+          coords="9,6,96,37"
+          shape="rect"
+        />
+        <area
+          target=""
+          alt=""
+          title=""
+          href="services.html"
+          coords="102,5,191,36"
+          shape="rect"
+        />
+        <area
+          target=""
+          alt=""
+          title=""
+          href="products.html"
+          coords="202,4,300,37"
+          shape="rect"
+        />
+        <area
+          target=""
+          alt=""
+          title=""
+          href="order_status.html"
+          coords="308,6,439,35"
+          shape="rect"
+        />
+        <area
+          target=""
+          alt=""
+          title=""
+          href="contact.html"
+          coords="448,4,554,38"
+          shape="rect"
+        />
+      </map>
+
+      <div id="table">
+          <h2>Product Summary</h2>
+        <table>
+          <tr id="heading">
+            <th>Description</th>
+            <th>Size</th>
+            <th>Colour</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+          <tr>
+            <td><a href="">Female Ski Jackets</a></td>
+            <td>
+              <select id="size1">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select>
+            </td>
+            <td>
+              <select id="colour1">
+                <option value="small">Red</option>
+                <option value="medium">Yellow</option>
+                <option value="large">Green</option>
+              </select>
+            </td>
+            <td>150.95</td>
+            <td><input id="female" type="text" size="6"/></td>
+            <td><label for="fem" id="fdisp"></label></td>
+
+          </tr>
+          <tr>
+            <td><a href="">Male Ski Jackets</a></td>
+            <td>
+                <select id="size2">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                  </select>
+            </td>
+            <td>
+                <select id="colour2">
+                    <option value="small">Red</option>
+                    <option value="medium">Yellow</option>
+                    <option value="large">Green</option>
+            </td>
+            <td>180.95</td>
+            <td><input id="male" type="text" size="6"/></td>
+            <td><label for="mal" id="mdisp"></label></td>
+          </tr>
+          <tr>
+              <td colspan="4">Click to confirm and process your order:</td>
+              <td><input type="button" value="Total price" onclick="total()"></td>
+              <td><label for="tot" id="total"></label></td>
+          </tr>
+        </table>
+      </div>
+      <br><br><br><br>
+      <hr>
+      <footer>©2014 Swagga Fashion - VIK T</footer>
+    </div>
+    <script src="swagga.html" , type="text/javascript"></script>
+  </body>
+</html>

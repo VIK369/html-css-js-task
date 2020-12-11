@@ -1,0 +1,61 @@
+body {
+  background-color: #d0e8f2;
+  margin: 0;
+  padding: 0;
+}
+.page {
+  align-content: center;
+  background-color: white;
+  height: 400px;
+  width: 765px;
+  margin: 10px auto;
+  padding: 50px;
+  border: 2px solid black;
+}
+
+#sidebar {
+  width: 150px;
+  height: 370px;
+  background-color: white;
+  margin-bottom: 0.7em;
+  float: left;
+}
+
+#banner {
+  float: top;
+  height: 70px;
+  background-color: white;
+}
+
+#nav {
+  height: 45px;
+  background-color: white;
+}
+
+#heading {
+  font: bold 20px Georgia, serif;
+}
+
+table,
+th,
+td {
+  padding: 6px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  font: 18px Georgia, serif;
+}
+
+footer {
+  float: right;
+  text-align: right;
+  margin-right: 100px;
+}
+
+h2 {
+  padding-left: 220px;
+  color: blue;
+  margin-left: 100px;
+}
